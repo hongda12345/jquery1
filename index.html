@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="index.js"></script>
+	<script src="jquery-3.2.1.js"></script>
+</head>
+<style>
+    *{
+    	margin: 0;
+    	padding: 0;
+    	list-style: none;
+    	box-sizing: border-box;
+    }
+	/* .box{
+		width: 200px;
+		height: 300px;
+		background: hotpink;
+		float: left;
+		margin-right: 30px;
+		display: none;
+	} */
+	ul{
+		width: 20%;
+		height: 500px;
+		background: red;
+		float: left;
+		position: relative;
+	}
+	ul li{
+		width: 90%;
+		height: 100px;
+		background: blue;
+		text-align: center;
+		line-height: 100px;
+		font-size: 30px;
+		margin-right: 10%;
+		color: #fff;
+		border-bottom: 1px solid gray;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+</style>
+<body>
+	<!-- <div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div> -->
+	<ul>
+		<li>疾风剑豪</li>
+		<li>疾风剑豪</li>
+		<li>疾风剑豪</li>
+		<li>疾风剑豪</li>
+		<li>疾风剑豪</li>
+	</ul>
+	<ul>
+		<li>放逐之刃</li>
+		<li>放逐之刃</li>
+		<li>放逐之刃</li>
+		<li>放逐之刃</li>
+		<li>放逐之刃</li>
+	</ul>
+	<ul>
+		<li>黑暗之女</li>
+		<li>黑暗之女</li>
+		<li>黑暗之女</li>
+		<li>黑暗之女</li>
+		<li>黑暗之女</li>
+	</ul>
+	<ul>
+		<li>影流之主</li>
+		<li>影流之主</li>
+		<li>影流之主</li>
+		<li>影流之主</li>
+		<li>影流之主</li>
+	</ul>
+	<ul>
+		<li>暗夜猎手</li>
+		<li>暗夜猎手</li>
+		<li>暗夜猎手</li>
+		<li>暗夜猎手</li>
+		<li>暗夜猎手</li>
+	</ul>
+	<script>
+		// let obj1=new aa(fn);
+		// function fn(){
+  //           let obj3=new aa('<div>');
+		//     obj3.css({width:'100px',height:'200px',background:'blue'});
+		    // let element=new aa('div')
+		    // let str=element.html('死亡如风常伴吾身').css({width:'100px',height:'200px',background:'blue',textAlign:'center',lineHeight:'200px',fontSize:'12px'}).click(function(){
+		    // 		let obj2=new aa(this);
+		    // 		obj2.css({width:'100px',height:'200px',background:'green'});
+		    // 	}).mouseout(function(){
+		    // 		let obj2=new aa(this);
+		    // 		obj2.css({width:'100px',height:'200px',background:'red'});
+		    // 	})
+		    
+        	// $('li').show('slow').hide('slow').toggle('slow');
+        	$('ul').on('click',function(){
+                $('li').show('slow').slideDown('slow');
+        	})
+	</script>
+</body>
+</html>
